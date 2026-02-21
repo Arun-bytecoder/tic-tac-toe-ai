@@ -116,7 +116,7 @@ Example preview:
 
 | Gameplay | Win State |
 |----------|-----------|
-| ![Gameplay](screenshots/gameplay.png) | ![Win](screenshots/win-state.png) |
+| ![Gameplay](screenshots/Screenshot (594).png) | ![Win](screenshots/Screenshot (595).png) |
 
 ---
 

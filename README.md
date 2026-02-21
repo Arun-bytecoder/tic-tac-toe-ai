@@ -116,7 +116,7 @@ Example preview:
 
 | Gameplay | Win State |
 |----------|-----------|
-| ![Gameplay](screenshots/Screenshot (594).png) | ![Win](screenshots/Screenshot (595).png) |
+| ![Gameplay](screenshots/gameplay.png) | ![Win](screenshots/win-state.png) |
 
 ---
 
@@ -228,5 +228,7 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Arunachalam**  
-AI & Data Science Engineer 
+AI & Data Science Engineer    
+
+---
 

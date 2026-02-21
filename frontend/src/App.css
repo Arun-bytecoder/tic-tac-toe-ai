@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding-top: 40px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 110px);
+  gap: 12px;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.cell {
+  width: 110px;
+  height: 110px;
+  background: rgba(255,255,255,0.08);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #60a5fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cell:hover {
+  transform: scale(1.07);
+  background: rgba(96,165,250,0.2);
+  box-shadow: 0 0 15px rgba(96,165,250,0.6);
+}
+
+.restart {
+  margin-top: 25px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+  transition: 0.3s;
+}
+
+.restart:hover {
+  background: #2563eb;
+  transform: scale(1.05);
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.filled {
+  animation: pop 0.2s ease-in-out;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.x {
+  color: #60a5fa;
+}
+.o {
+  color: #f87171;
+}
+
+.winner {
+  color: #22c55e;
+  text-shadow: 0 0 10px #22c55e;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.score {
+  background: rgba(255,255,255,0.08);
+  padding: 15px 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+.score:hover {
+  transform: scale(1.1);
+}
+
+.score p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 5px 0 0 0;
+  color: #22c55e;
+}

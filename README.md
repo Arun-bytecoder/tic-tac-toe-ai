@@ -2,8 +2,6 @@
 
 A full-stack AI-powered Tic Tac Toe game built using **React (Vite)** and **Flask**, featuring an optimized **Minimax algorithm with Alpha-Beta pruning** and depth-based evaluation.
 
-live deployment : https://tic-tac-toe-ai-eight-opal.vercel.app/
-
 🚀 Live UI animations  
 🤖 Intelligent AI opponent  
 🎯 Difficulty levels  
